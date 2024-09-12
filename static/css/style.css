@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    
+}
+a{
+    color:rgb(234, 236, 219);
+}
+.nav-bar{
+    width:100%;
+    height:10%;
+    background-color:rgb(185, 218, 215);
+    position:relaive;
+    display:flex;
+    justify-content:space-between;
+
+}
+.Logo{
+    color:black;
+    margin: 40px;
+    padding:5px 30px;
+    
+
+
+}
+.addnote{
+    
+    color:black;
+    margin: 40px;
+    padding:5px 30px;
+    width:7%;
+    height:30%;
+    background-color:rgb(102, 164, 212);
+    border:solid;
+    border-color: antiquewhite;
+}
+ .Home{
+
+    color:black;
+    margin: 40px;
+    padding:5px 30px;
+    width:5%;
+    height:30%;
+    background-color:rgb(102, 164, 212);
+    border:solid;
+    border-color: antiquewhite;
+   
+}
+.About{
+    color:black;
+    margin: 40px;
+    padding:5px 30px;
+    width:5%;
+    height:30%;
+    background-color:rgb(102, 164, 212);
+    border:solid;
+    border-color: antiquewhite;
+    
+}
+.Login{
+    color:black;
+    margin: 40px;
+    padding:5px 30px;
+    width:5%;
+    height:30%;
+    background-color:rgb(102, 164, 212);
+    border:solid;
+    border-color: antiquewhite;
+   
+}
+.main{
+    width:100%;
+    height:100%;
+    display: flex;
+  
+    background-color: antiquewhite;
+   
+}
+.section{
+    width:30%;
+    height:50%;
+    margin: 20px;
+    border:solid;
+    padding:10px;
+    background-color: rgb(176, 234, 209);
+    border-radius:20px;
+   
+    
+    
+}
+.des-h3{
+    width: 100%;
+    padding : 10px 20px;
+    height:10%;
+    border:solid;
+    border-radius:30%;
+    background-color: aquamarine;
+}
+.title-class{
+
+    width:100%;
+    background-color:rgb(152, 112, 216);
+
+}
+.description{
+    background-color:cornflowerblue;
+    width:100%;
+    height:60%;
+    margin:20px 2px;
+    padding: 20px;
+    border-style:solid;
+    border-color: brown;
+    border-radius:10%
+}
+.dele-button{
+
+    display:flex;
+    justify-content: center;
+    margin:50px auto;
+    position:relative;
+    gap:10em;
+    
+   
+    
+}
+del-button{
+    
+    top:50%;
+    background-color: #0a0a23;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    box-shadow:0px 0px 2px 2px rgb(0,0,0);
+}
+.addnotes{
+    background-color: white;
+    padding:40px;
+    width:50%;
+    height:50%;
+    margin:10% 20%;
+    border:solid;
+    border-color:rgb(163, 163, 223);
+    
+}
+
