@@ -18,12 +18,13 @@ Notes
     <div class="section">
         <h2 class="title-class"> Title : {{n.title}} </h2> <hr>  <br> 
         <h3 class="des-h3"> created at: {{n.creation_date}}</h3>
+       
         <div class="description"> 
             <p> {{n.description}} </p> 
         </div> 
         
-        <button type="button" class="del-button"><a href={% url 'editnotes/<int:id>/change'%}>Delete </a></button>
-        <button type="button" class="edit-button" > <a href={% url 'editnotes/<int:id>/change'%}>Edit </a></button>
+        <button type="button" class="del-button"><a href={% url 'delete-note' n.id %}> Delete </a></button>
+        <button type="button" class="edit-button" > <a href={% url 'edit-note' n.id %}>Edit </a></button>
          
     </div> 
 
